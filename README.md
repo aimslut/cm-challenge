@@ -1,9 +1,11 @@
-# 6cm-challenge
-100cm - 6cm challenge
+# cm-challenge
+cm challenge where you start at either the minimum/maximum sensitivity and you work your way to the opposite end
+
+( originally 100cm - 6cm challenge )
 
 
 ## usage
-input your dpi + game, and it'll return a series of sensitivities to use in-game with their corresponding cm value.
+input your dpi + game + minimum cm + maximum cm, and it'll return a series of sensitivities to use in-game with their corresponding cm value.
 
 
 ## supported game inputs and their corresponsing yaw values 
