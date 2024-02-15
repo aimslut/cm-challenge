@@ -64,7 +64,7 @@ double determine_game( const std::string& game ) {
             // allow scientific notation ( 1e-4, etc. )
             return std::stod( game );
         } catch ( const std::invalid_argument& ) {
-            std::cerr << "Invalid game or yaw value." << std::endl;
+            std::cerr << "invalid game or yaw value." << std::endl;
             return std::numeric_limits<double>::quiet_NaN(); // default to NaN
         }
     }
